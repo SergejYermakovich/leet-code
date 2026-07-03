@@ -4,8 +4,8 @@ import junit.framework.Assert;
 
 public class LongestCommonPrefix {
     public static void main(String[] args) {
-//        Assert.assertEquals("fl", longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
-//        Assert.assertEquals("", longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
+        Assert.assertEquals("fl", longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
+        Assert.assertEquals("", longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
         Assert.assertEquals("c", longestCommonPrefix(new String[]{"cir", "car"}));
     }
 
